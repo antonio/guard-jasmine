@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'childprocess', '~>0.5'
   s.add_dependency 'thor',         '~>0.19'
   # Coverage uses tilt for spec files
-  s.add_dependency 'tilt',         '~>2.0'
+  s.add_dependency 'tilt'
 
   s.add_development_dependency 'bundler'
 
